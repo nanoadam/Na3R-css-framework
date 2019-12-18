@@ -1,0 +1,27 @@
+// Simple Alert
+.alert {
+  margin: 0.2rem;
+  padding: 0.5rem 1rem;
+}
+
+// Adding Color to Alerts
+.alert- {
+  &primary {
+    background: $primary-color;
+    color: set-text-color($primary-color);
+  }
+  &secondary {
+    background: $secondary-color;
+    color: set-text-color($secondary-color);
+  }
+  &success {
+    background: $success-color;
+    color: set-text-color($success-color);
+  }
+  &warning {
+    background: $warning-color;
+    color: set-text-color($warning-color);
+  }
+}
+
+// https://css-tricks.com/html5-progress-element/

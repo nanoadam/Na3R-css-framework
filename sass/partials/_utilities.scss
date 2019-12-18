@@ -1,0 +1,121 @@
+// Text Align
+.text {
+  &-left {
+    text-align: left;
+  }
+  &-center {
+    text-align: center;
+  }
+  &-right {
+    text-align: right;
+  }
+  &-justify {
+    text-align: justify;
+  }
+}
+
+// TODO: Margin
+
+// Margin All Around
+.m {
+  // Rem Margin
+  &-rem- {
+    &1 {
+      margin: 1rem;
+    }
+    &2 {
+      margin: 2rem;
+    }
+    &3 {
+      margin: 3rem;
+    }
+    &4 {
+      margin: 4rem;
+    }
+  }
+
+  // Percent Margin
+  &-per- {
+    &1 {
+      margin: 1%;
+    }
+    &2 {
+      margin: 2%;
+    }
+    &3 {
+      margin: 3%;
+    }
+    &4 {
+      margin: 4%;
+    }
+  }
+
+  // Pixel Margin
+  &-px- {
+    &1 {
+      margin: 1px;
+    }
+    &2 {
+      margin: 2px;
+    }
+    &3 {
+      margin: 3px;
+    }
+    &4 {
+      margin: 4px;
+    }
+  }
+
+  &-em- {
+  }
+  // yea. we should make a python script to generate these fast . lol. I can do it. We can do this with a scss function also. wdym. meaning, we can create a sass mixin which will help us generate these. nvm. that is not possible. I thought. I was thinking differently. dont worry. we both got good keyboards. but not enough fingers lol lol. lol. lets lower jokes so no one notices when I am laughing. k good
+
+  //   you jump into a file and I will jump into another. that way scrolling doesnt hurt us.
+
+  //  Margin Top
+
+  //   Margin Bottom
+
+  //   Margin Left
+
+  //   Margin Right
+
+  //   Margin X
+
+  //   Margin Y
+}
+
+// Padding
+.p- {
+  // Rem Padding
+  &rem- {
+    &1 {
+      padding: 1rem;
+    }
+    &2 {
+      padding: 2rem;
+    }
+    &3 {
+      padding: 3rem;
+    }
+    &4 {
+      padding: 4rem;
+    }
+  }
+
+  // Percent Padding
+  &per- {
+    &1 {
+      padding: 1%;
+    }
+    &1 {
+      padding: 2%;
+    }
+    &1 {
+      padding: 3%;
+    }
+    &1 {
+      padding: 4%;
+    }
+  }
+}

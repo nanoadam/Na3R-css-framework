@@ -1,0 +1,19 @@
+// ** Imports
+@import "./partials/config";
+@import "./partials/alerts";
+@import "./partials/badge";
+@import "./partials/bottomnav";
+@import "./partials/breadcrumb";
+@import "./partials/buttons";
+@import "./partials/card";
+@import "./partials/forms";
+@import "./partials/list-collection";
+@import "./partials/navbar";
+@import "./partials/utilities";
+@import "./partials/footer";
+@import "./partials/modal";
+
+// nano, why is there multipel css files
+body {
+  font-family: sans-serif;
+}

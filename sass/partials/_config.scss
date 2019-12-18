@@ -1,0 +1,22 @@
+// ** General Reset
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// TODO: Come up with Color Theme
+$primary-color: #3737ff;
+$secondary-color: orange;
+$success-color: green;
+$warning-color: yellow;
+$danger-color: red;
+
+// Color Determine Function
+@function set-text-color($color) {
+  @if (lightness($color) > 62) {
+    @return #000000; // Lighter backgorund, return dark color
+  } @else {
+    @return #ffffff; // Darker background, return light color
+  }
+}
