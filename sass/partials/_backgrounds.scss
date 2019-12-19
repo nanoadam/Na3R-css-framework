@@ -1,0 +1,68 @@
+// Backgrounds
+.bg- {
+  &primary {
+    background: $primary-color;
+    color: set-text-color($primary-color);
+
+    i,
+    a {
+      color: set-text-color($primary-color);
+    }
+
+    .nav-links:hover {
+      background: lighten($color: $primary-color, $amount: 9);
+    }
+  }
+
+  &secondary {
+    background: $secondary-color;
+    color: set-text-color($secondary-color);
+
+    i,
+    a {
+      color: set-text-color($primary-color);
+    }
+
+    .nav-links:hover {
+      background: lighten($color: $secondary-color, $amount: 9);
+    }
+  }
+
+  &success {
+    background: $success-color;
+    color: set-text-color($success-color);
+
+    i,
+    a {
+      color: set-text-color($primary-color);
+    }
+
+    .nav-links:hover {
+      background: lighten($color: $success-color, $amount: 9);
+    }
+  }
+
+  &warning {
+    background: $warning-color;
+    color: set-text-color($warning-color);
+
+    i,
+    a {
+      color: set-text-color($primary-color);
+    }
+
+    .nav-links:hover {
+      background: darken($color: $warning-color, $amount: 9);
+    }
+  }
+
+  &danger {
+    background: $danger-color;
+    color: set-text-color($danger-color);
+
+    i,
+    a {
+      color: set-text-color($primary-color);
+    }
+  }
+}

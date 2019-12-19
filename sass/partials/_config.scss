@@ -5,18 +5,31 @@
   box-sizing: border-box;
 }
 
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
 // TODO: Come up with Color Theme
-$primary-color: #3737ff;
-$secondary-color: orange;
-$success-color: green;
-$warning-color: yellow;
-$danger-color: red;
+$primary-color: rgb(78, 78, 255);
+$secondary-color: rgb(107, 62, 255);
+$success-color: rgb(41, 168, 71);
+$warning-color: rgb(255, 161, 53);
+$danger-color: rgb(255, 61, 54);
 
 // Color Determine Function
 @function set-text-color($color) {
-  @if (lightness($color) > 62) {
+  @if (lightness($color) < 50) {
     @return #000000; // Lighter backgorund, return dark color
   } @else {
     @return #ffffff; // Darker background, return light color
+  }
+}
+
+@function getNano($boolean) {
+  @if ($boolean = true) {
+    @return green;
+  } @else {
+    @return red;
   }
 }

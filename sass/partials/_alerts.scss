@@ -1,26 +1,21 @@
 // Simple Alert
 .alert {
-  margin: 0.2rem;
-  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  padding: 1rem 1.5rem;
 }
 
-// Adding Color to Alerts
-.alert- {
-  &primary {
-    background: $primary-color;
-    color: set-text-color($primary-color);
-  }
-  &secondary {
-    background: $secondary-color;
-    color: set-text-color($secondary-color);
-  }
-  &success {
-    background: $success-color;
-    color: set-text-color($success-color);
-  }
-  &warning {
-    background: $warning-color;
-    color: set-text-color($warning-color);
+.alert-close {
+  display: flex;
+  justify-content: space-between;
+}
+
+.alert-btn-close {
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer; // css isnt working
+
+  &:click {
+    transform: scale(0);
   }
 }
 

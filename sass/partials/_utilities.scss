@@ -1,5 +1,5 @@
-// Text Align
 .text {
+  // Text Align
   &-left {
     text-align: left;
   }
@@ -11,6 +11,26 @@
   }
   &-justify {
     text-align: justify;
+  }
+
+  // Colors
+  &-black {
+    color: black;
+  }
+  &-white {
+    color: white;
+  }
+  &-primary {
+    color: $primary-color;
+  }
+  &-primary {
+    color: $primary-color;
+  }
+  &-primary {
+    color: $primary-color;
+  }
+  &-primary {
+    color: $primary-color;
   }
 }
 
